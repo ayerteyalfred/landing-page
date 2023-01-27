@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .header {
@@ -34,35 +35,121 @@
 .header-main {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     padding-top: 50px;
 }
 
 .header-main-left {
     display: flex;
     flex-direction: column;
-    border: 1px solid #fff;
     width: 450px;
-    margin-left: 190px;
+    margin-left: 150px;
+    padding: auto;
 }
 
 .header-main-title > h1 {
     font-weight: bold;
-    font-size: 48px;
+    font-size: 55px;
 }
- 
 
-.header-main-signup > button {
+.header-main-signup > button{
     color: #fff;
     background-color: #3882f6;
     border-radius: 7px;
     padding: 5px 20px;
     border: none;
-
+    margin-top: 10px;
 }
 
 .header-main-right {
-    width: 650px;
-    height: 300px;
-    background-color: #fff;
-    margin-right: 195px;
+    margin-right: 140px;
+}
+
+.header-main-img > img {
+    width: 550px;
+    height: 250px;
+}
+
+.main {
+    background-color: #F9FAF8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.main-header {
+    color: #1F2937;
+    font-size: 36px;
+}
+
+.main-sub {
+    display: flex;
+}
+
+.main-box {
+    margin: 20px;
+    text-align: center;
+}
+.main-box > img {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    border: 1px solid;
+}
+
+
+
+.quote-section {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+    color: #1F2937;
+}
+
+.quote {
+    font-size: 36px;
+}
+
+.person {
+    font-size: 18px;
+    margin-left: 600px;
+}
+
+.bottom-section {
+    background-color: #F9FAF8;
+    padding: 100px;
+}
+
+.container-bottom {
+    background-color: #3882f6;
+    display: flex;
+    color: #F9FAF8;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 20px;
+    width: 1200px;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.btn {
+    color: #fff;
+    background-color: #3882f6;
+    border-radius: 7px;
+    padding: 5px 20px;
+    border: 2px solid #fff;
+
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 40px;
+    text-align: center;
+    font-size: 20px;
 }
